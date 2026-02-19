@@ -53,6 +53,10 @@ def polar_to_xy(pts):
     return x, y, q_valid, total_pts, valid_pts
 
 def main():
+    """
+    Punto de entrada principal. Gestiona el ciclo de vida del sensor 
+    y la orquestación de la visualización dinámica.
+    """
     ap = argparse.ArgumentParser(description='Visualización en tiempo real RPLIDAR')
     ap.add_argument('--port',  required=True,       help='Puerto serie (/dev/ttyUSB0 o COM5)')
     ap.add_argument('--range', type=float, default=6.0, help='Rango máximo a mostrar (metros)')
@@ -62,7 +66,9 @@ def main():
     driver = LidarDriver(args.port)
     plt.ion()  # modo interactivo: no bloquea
     fig, ax = plt.subplots(figsize=(7, 7))
-    
+    # El origen (0,0) marcado con '^' (triángulo) representa el centro óptico del LIDAR. 
+    # El grid con transparencia alpha=0.3 ayuda a estimar distancias a ojo 
+    # sin saturar visualmente la nube de puntos (scatter).
     ax.set_aspect('equal', 'box')
     ax.set_xlim(-args.range, args.range)
     ax.set_ylim(-args.range, args.range)   
