@@ -11,7 +11,7 @@ Para que este proyecto funcione en tu computadora, asegúrate de tener:
 * **Hardware:** * Sensor RPLidar A1 (Slamtec).
     * Cable USB conversor serial.
 * **Software:**
-    * Python 3.10 o superior (o Arduino IDE según tu caso).
+    * Python 3.10 o superior.
     * Drivers de Silicon Labs (CP210x) instalados.
 
 ## Estructura del Repositorio
@@ -25,6 +25,10 @@ Para que este proyecto funcione en tu computadora, asegúrate de tener:
 2. **Conectar** el sensor al puerto USB de tu PC.
 3. **Instalar dependencias**: pip install rplidar-roboticia matplotlib
 4. **Ejecutar el script de prueba**: python main.py
+
+## Puertos
+1. Ordenador 1: COM3
+2. Ordenador 2: COM9
 
 ## Integrantes del Equipo
 Juan Cano Vicens - LIDAR.  
