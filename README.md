@@ -27,8 +27,8 @@ Para que este proyecto funcione en tu computadora, asegúrate de tener:
 4. Ejecutar el script de prueba: python main.py
 
 ## Integrantes del Equipo
-Juan Cano Vicens - LIDAR.
-Roman Torres Santander - COMPUTACIÓN.
-Alejandro García Chirivella - ACTUADORES.
-Joan Corbera Vidal - VISIÓN.
-Sergio Fabian Felix - SENSORES.
+Juan Cano Vicens - LIDAR.  
+Roman Torres Santander - COMPUTACIÓN.  
+Alejandro García Chirivella - ACTUADORES.  
+Joan Corbera Vidal - VISIÓN.  
+Sergio Fabian Felix - SENSORES.  
