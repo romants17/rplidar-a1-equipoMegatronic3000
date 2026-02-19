@@ -23,8 +23,8 @@ Para que este proyecto funcione en tu computadora, asegúrate de tener:
 ## Instalación y Uso Rápido
 1. **Clonar o descargar** este repositorio.
 2. **Conectar** el sensor al puerto USB de tu PC.
-3. **Instalar dependencias** (si usas Python): pip install rplidar-roboticia matplotlib
-4. Ejecutar el script de prueba: python main.py
+3. **Instalar dependencias**: pip install rplidar-roboticia matplotlib
+4. **Ejecutar el script de prueba**: python main.py
 
 ## Integrantes del Equipo
 Juan Cano Vicens - LIDAR.  
