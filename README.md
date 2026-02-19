@@ -13,6 +13,7 @@ Para que este proyecto funcione en tu computadora, asegúrate de tener:
 * **Software:**
     * Python 3.10 o superior.
     * Drivers de Silicon Labs (CP210x) instalados.
+    * Frame Grabber
 
 ## Estructura del Repositorio
 * `/src`: Código fuente principal (.py o .ino).
